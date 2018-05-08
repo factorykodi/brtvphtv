@@ -1,0 +1,47 @@
+{
+	"name": "Puhu Tv",
+	"version": "0.0.1",
+	"description": "Puhu TV",
+	"author":{
+		"name": "FactoryKodi"
+	},
+	"repository": {
+		"type":"git",
+		"url":"https://github.com/factorykodi/brtvphtv.git"
+	},
+	"dependencies": {
+		"stb-referrer": "https://github.com/stbsdk/referrer.git",
+		"code-proxy": "^1.2.21",
+		"del": "^2.0.0",
+		"gettext-parser": "^1.1.1",
+		"ip": "^0.3.2",
+		"node-static": "^0.7.7",
+		"open": "^0.0.5",
+		"ssh2": "^0.4.11",
+		"tty-colors": "^0.0.6",
+		"webpack-stream": "^2.1.0",
+		"weinre": "^2.0.0-pre-I0Z7U9OV",
+		"ws": "^0.8.0"
+	},
+	"license": "GPL-3.0",
+	"config": {
+		"type": "app",
+		"category": "apps",
+		"backgroundColor": "#000000",
+		"name": "PuhuTv",
+		"legacy": true,
+		"description": "Puhu TV",
+		"icons": {
+			"paths": {
+				"480": "img/",
+				"576": "img/",
+				"720": "img/",
+				"1080": "img/"
+			},
+			"states": {
+				"normal": "img/thumb.jpg",
+				"active": "img/thumb.jpg"
+			}
+		}
+	}
+}
