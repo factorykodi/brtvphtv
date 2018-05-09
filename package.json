@@ -1,7 +1,7 @@
 {
-	"name": "PuhuTv",
+	"name": "puhutv",
 	"version": "1.0.1",
-	"description": "PuhuTV",
+	"description": "Puhutv for IPTV",
 	"author":{
 		"name": "FactoryKodi"
 	},
@@ -10,14 +10,10 @@
 		"url": "https://github.com/factorykodi/brtvphtv.git"
 	},
 	"dependencies": {},
-	"license": "GPL-3.0",
 	"config": {
 		"type": "app",
 		"category": "apps",
 		"backgroundColor": "#000000",
-		"name": "PuhuTv",
-		"legacy": true,
-		"description": "PuhuTV",
 		"icons":"icons"
 	}
 }
