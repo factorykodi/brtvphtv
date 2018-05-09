@@ -6,8 +6,8 @@
 		"name": "FactoryKodi"
 	},
 	"repository": {
-		"type":"git",
-		"url":"https://github.com/factorykodi/brtvphtv.git"
+		"type": "git",
+		"url": "https://github.com/factorykodi/brtvphtv.git"
 	},
 	"dependencies": {},
 	"license": "GPL-3.0",
