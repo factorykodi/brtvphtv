@@ -45,7 +45,7 @@
 		"backgroundColor": "#000000",
 		"name": "PuhuTv",
 		"legacy": true,
-		"description": "Puhu TV",
+		"description": "PuhuTV",
 		"icons": {
 			"paths": {
 				"480": "img/",
