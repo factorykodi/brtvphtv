@@ -1,18 +1,29 @@
 {
-	"name": "puhutv",
-	"date": "2018.05.09",
-	"version": "1.0.1",
-	"description": "Puhutv for IPTV",
-	"author":{
-		"name": "FactoryKodi"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/factorykodi/brtvphtv.git"
-	},
-	"dependencies": {},
-	"config": {
-		"backgroundColor": "#000000",
-		"icons":"icons"
-	}
+  "name": "puhutv",
+  "date": "2018.05.09",
+  "version": "1.0.2",
+  "description": "Puhutv for IPTV",
+  "author": {
+    "name": "FactoryKodi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/factorykodi/brtvphtv.git"
+  },
+  "dependencies": {},
+  "config": {
+    "backgroundColor": "#000000",
+    "icons": {
+      "paths": {
+        "480": "img/",
+        "576": "img/",
+        "720": "img/",
+        "1080": "img/"
+      },
+      "states": {
+        "normal": "icons/puhu.png",
+        "active": "icons/puhu.focus.png"
+      }
+    }
+  }
 }
